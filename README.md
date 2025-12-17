@@ -18,7 +18,7 @@ This folder consist of the whole working application along with the required lib
 
 ## Modeling Folder
 
-This folder consist of files used for training and evaluation of YOLOv8n along with the preproccessed dataset and the results of both training and evaluation process
+This folder consist of files used for training and evaluation of YOLOv8n along with the preproccessed dataset and the results of both training and evaluation process. Some folder has to be downloaded too due to GitHub upload memory limit. Usually lies in .txt files. It's highly adviced to download the zip and extract it into the same folder where the .txt file lives
 
 ## Limitations 
 
