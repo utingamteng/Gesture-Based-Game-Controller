@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Flat', 'High Five', 'Pinky', 'Thumb', 'Two']
+
+roboflow:
+  workspace: gesture-based-control-system-for-browser-games-using-computer-vision
+  project: gesture-based-game-controller-osfaa
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gesture-based-control-system-for-browser-games-using-computer-vision/gesture-based-game-controller-osfaa/dataset/2
