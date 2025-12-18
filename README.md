@@ -2,6 +2,10 @@
 
 This project was made so that gaming without involving physical touch of keyboards. Leveraging YOLOv8n as the base model, the captured gestures were translated into keyboard inputs. This project was meant to offer a more realistic and immersive gameplay experience
 
+## How to Use
+
+Since deployment through cloud is impossible knowing streamlit or docker can't accept pyautogui, you need to manually run the code in your terminal. All the required source code with the requirement libraries are listed inside a folder named "Working Application". There, you need to access the terminal inside the "Working Application" and run "streamlit run StreamlitMain.py" in the terminal
+
 ## Gesture List
 
 There are five possible gesture that the player can show and it will be translated into a fixed keyboard inputs as shown below :
