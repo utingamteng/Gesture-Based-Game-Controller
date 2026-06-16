@@ -95,6 +95,24 @@ with st.expander("Open Modes"):
     HoldMode = st.checkbox("Hold Mode", value=False,
                             help="Activate \"Hold Mode\" for games that requires certain keys to be held")
 
+st.header("⌨️ Key Bindings")
+
+with st.expander("Customize Controls"):
+    st.write("Type the key you want to press for each gesture (e.g., 'w', 'space', 'up', 'shift').")
+    
+    ClassToKeyConversion = {}
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        ClassToKeyConversion["High Five"] = st.text_input("✋ High Five", value="up").lower()
+        ClassToKeyConversion["Two"] = st.text_input("✌️ Two", value="down").lower()
+        ClassToKeyConversion["Thumb"] = st.text_input("👍 Thumb", value="left").lower()
+        
+    with col2:
+        ClassToKeyConversion["Pinky"] = st.text_input("🤙 Pinky", value="right").lower()
+        ClassToKeyConversion["Flat"] = st.text_input("🤚 Flat", value="space").lower()
+
 st.header("🔥 Activate Controller!")
 
 with st.expander("Toggle Controller"):
